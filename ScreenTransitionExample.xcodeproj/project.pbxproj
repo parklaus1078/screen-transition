@@ -13,6 +13,10 @@
 		DC99009D29D6DFA100355336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC99009B29D6DFA100355336 /* Main.storyboard */; };
 		DC99009F29D6DFA200355336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC99009E29D6DFA200355336 /* Assets.xcassets */; };
 		DC9900A229D6DFA200355336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9900A029D6DFA200355336 /* LaunchScreen.storyboard */; };
+		DC9900AA29D6E69300355336 /* SaguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9900A929D6E69300355336 /* SaguePushViewController.swift */; };
+		DC9900AC29D6E8C300355336 /* SaguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9900AB29D6E8C300355336 /* SaguePresentViewController.swift */; };
+		DC9900AE29D6E9E900355336 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9900AD29D6E9E900355336 /* CodePushViewController.swift */; };
+		DC9900B029D6F23B00355336 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9900AF29D6F23B00355336 /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DC99009E29D6DFA200355336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9900A129D6DFA200355336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9900A329D6DFA200355336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9900A929D6E69300355336 /* SaguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguePushViewController.swift; sourceTree = "<group>"; };
+		DC9900AB29D6E8C300355336 /* SaguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguePresentViewController.swift; sourceTree = "<group>"; };
+		DC9900AD29D6E9E900355336 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		DC9900AF29D6F23B00355336 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				DC99009E29D6DFA200355336 /* Assets.xcassets */,
 				DC9900A029D6DFA200355336 /* LaunchScreen.storyboard */,
 				DC9900A329D6DFA200355336 /* Info.plist */,
+				DC9900A929D6E69300355336 /* SaguePushViewController.swift */,
+				DC9900AB29D6E8C300355336 /* SaguePresentViewController.swift */,
+				DC9900AD29D6E9E900355336 /* CodePushViewController.swift */,
+				DC9900AF29D6F23B00355336 /* CodePresentViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9900AA29D6E69300355336 /* SaguePushViewController.swift in Sources */,
+				DC9900AE29D6E9E900355336 /* CodePushViewController.swift in Sources */,
+				DC9900AC29D6E8C300355336 /* SaguePresentViewController.swift in Sources */,
 				DC99009A29D6DFA100355336 /* ViewController.swift in Sources */,
+				DC9900B029D6F23B00355336 /* CodePresentViewController.swift in Sources */,
 				DC99009629D6DFA100355336 /* AppDelegate.swift in Sources */,
 				DC99009829D6DFA100355336 /* SceneDelegate.swift in Sources */,
 			);
